@@ -74,3 +74,11 @@ $$\begin{aligned}
 \end{aligned}$$
 
 Therefore, by strong induction, we prove that $1 \leq x_n\leq 2$ for all $n \in N$.
+
+---
+
+## $\S 1.1\ \mathrm{Sets\ and\ Functions}$
+
+<p align="center">INJECTION, SURJECTION, and BIJECTION</p>
+
+Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
