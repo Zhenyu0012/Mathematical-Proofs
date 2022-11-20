@@ -1,3 +1,6 @@
+## $\mathrm{Text Book}$
+INTRODUCTION TO REAL ANALYSIS, by Robert G. Bartle & Donald R. Sherbert, 4th edition
+
 ## $\S 1.2,1.3\ \mathrm{Principle\ of\ Induction}$ 
 
 <p align="center">INDUCTION</p>
@@ -75,10 +78,13 @@ $$\begin{aligned}
 
 Therefore, by strong induction, we prove that $1 \leq x_n\leq 2$ for all $n \in N$.
 
----
-
 ## $\S 1.1\ \mathrm{Sets\ and\ Functions}$
 
 <p align="center">INJECTION, SURJECTION, and BIJECTION</p>
 
 Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
+1. If $f(x_1)\ne f(x_2)$ whenever $x_1\ne x_2$, then $f$ is called one-to-one, or injective.
+2. If any $b\in B$, there is $a\in A$, s.t., $f(a)=b$, then $f$ is called onto, or surjective.
+3. If $A\to B$ is both injective and surjective, then $f$ is called bijective (from $A$ to $B$).
+
+
