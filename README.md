@@ -95,11 +95,10 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <p align="center">*Tricks for proving two infinite sets have the same cardinality</p>
 
-Beginners usually get confused when proving two infinite sets have the same cardinality since two sets obviously have different numbers of elements. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer<sup>[[1]](http://stanford.edu/~dntse/classes/cs70_fall09/n20_fall09.pdf)</sup> is we informally prove $\infty+n=\infty$.
+Beginners usually get confused when proving two infinite sets have the same cardinality since two sets obviously have different numbers of elements. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer<sup>[[1]](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)</sup> is we informally prove $\infty+n=\infty, n\in\mathbb{N}$. The strategy to prove such two sets $A$ and $B$ have the same cardinality relies on our definition:
 
-The strategy to prove such two sets $A$ and $B$ have the same cardinality relies on our definition:
-1. Since we know one set has more elements than the other, it's trivial to prove $A$ onto $B$ or $B$ onto $A$.
-2. Define a linear function, s.t. $f(a)\to b$, satisfying each $a\in A$ maps to only one $b\in B$. Since single $a$ maps to single $b$, we prove $A$ and $B$ is one-to-one relation.
+1. Since we know two sets have infinite elements, it's trivial to prove $A$ onto $B$ or $B$ onto $A$. Explicitly specifying this correspondence is unnecessary because it will be verified after defining a linear relationship between $A$ and $B$.
+2. Define a collection of linear functions satisfying each $a\in A$ maps to precisely one $b\in B$. Since single $a$ maps to single $b$, we prove $A$ and $B$ is one-to-one.
 
 Therefore, $A$ and $B$ have the same cardinality even size of $A$ is different from $B$'s.
 
