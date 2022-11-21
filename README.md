@@ -3,7 +3,7 @@ INTRODUCTION TO REAL ANALYSIS, by Robert G. Bartle & Donald R. Sherbert, 4th edi
 
 ## $\S 1.2,1.3\ \mathrm{Principle\ of\ Induction}$ 
 
-<p align="center">INDUCTION</p>
+<p align="center">Induction Definition</p>
 
 Let $n\in\mathbb{N}$ (from 1) and $P(n)$ be a statement. Suppose that
 
@@ -12,7 +12,7 @@ Let $n\in\mathbb{N}$ (from 1) and $P(n)$ be a statement. Suppose that
 
 Then $P(n)$ is true for all $n\in\mathbb{N}, n\ge n_0$.
 
-<p align="center">STRONG INDUCTION</p>
+<p align="center">Strong Induction Definition</p>
 
 Let $n\in\mathbb{N}$ and $P(n)$ be a statement. Suppose that
 
@@ -80,11 +80,29 @@ Therefore, by strong induction, we prove that $1 \leq x_n\leq 2$ for all $n \in 
 
 ## $\S 1.1\ \mathrm{Sets\ and\ Functions}$
 
-<p align="center">INJECTION, SURJECTION, and BIJECTION</p>
+<p align="center">Injection, Surjection, and Bijection Definitions</p>
 
 Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 1. If $f(x_1)\ne f(x_2)$ whenever $x_1\ne x_2$, then $f$ is called one-to-one, or injective.
 2. If any $b\in B$, there is $a\in A$, s.t., $f(a)=b$, then $f$ is called onto, or surjective.
 3. If $A\to B$ is both injective and surjective, then $f$ is called bijective (from $A$ to $B$).
 
+<p align="center">Cardnality Definition</p>
 
+Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
+
+---
+
+<p align="center">*Proving two infinite sets have the same cardinality</p>
+
+Beginners usually get confused when proving two infinite sets have the same cardinality since it's easy to see that two sets have different numbers of elements. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer<sup>[[1]](http://stanford.edu/~dntse/classes/cs70_fall09/n20_fall09.pdf)</sup> is we prove $\infty+n=\infty$ informally.
+
+The strategy to prove such two sets $A$ and $B$ have the same cardinality relies on our definition:
+1. Since we know one set has more elements than the other, it's trivial to prove $A$ onto $B$ or $B$ onto $A$.
+2. Define a linear function, s.t. $f(a)\to b$, satisfying each $a\in A$ maps to only one $b\in B$. Since single $a$ maps to single $b$, we prove $A$ and $B$ is one-to-one relation.
+
+Therefore, $A$ and $B$ have the same cardinality even size of $A$ is different from $B$'s.
+
+---
+
+**Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
