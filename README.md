@@ -97,7 +97,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 Proving two infinite sets have the same cardinality confuses lots of beginners since two sets obviously have different numbers of elements in most cases. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer<sup>[[1]](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)</sup> is we informally prove $\infty+n=\infty, n\in\mathbb{N}$.
 
-The strategy for proving any two sets, such as $A$ and $B$, have the same cardinality is to apply the definition directly. Therefore, we can finish our proof as long as we can define a collection of linear functions satisfying each $a\in A$ maps to precisely one $b\in B$.
+The strategy for proving any two sets, such as $A$ and $B$, have the same cardinality is directly applying the definition. Therefore, we can finish our proof as long as we can define a collection of linear functions satisfying each $a\in A$ maps to precisely one $b\in B$.
 
 ---
 
