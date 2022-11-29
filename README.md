@@ -93,11 +93,9 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 ---
 
-<p align="center">*Tricks for proving two infinite sets have the same cardinality</p>
+<p align="center">Tricks for proving two infinite sets have the same cardinality</p>
 
-Proving two infinite sets have the same cardinality confuses lots of beginners since two sets have different numbers of elements in most cases. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer to this conclusion is we apply $\infty+n=\infty, \forall n\in\mathbb{N}$. Thereinto, infinity, or $\infty$, is an idea (not a number) that denotes an object has no end. Therefore, we can construct endless pairs between any two arbitrary infinite sets, $A$ and $B$. Since endless pairs exist and no two $a\in A$ have the same image, we conclude $A$ and $B$ are 1-to-1 even though the number of elements in $A$ may differ slightly from $B$'s.
-
-But how do we write proof to prove two infinite sets have the same cardinality? The strategy is to define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$.
+The strategy for proving two arbitrary infinite sets $A$ and $B$ have the same cardinality is to define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. Besides, most important, we can always find such functions.
 
 ---
 
