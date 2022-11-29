@@ -95,7 +95,11 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <p align="center">*Tricks for proving two infinite sets have the same cardinality</p>
 
-Proving two infinite sets have the same cardinality confuses lots of beginners since two sets obviously have different numbers of elements in most cases. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer<sup>[[1]](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)</sup> is we use the concept $\infty+n=\infty, n\in\mathbb{N}$. Thus, we can finish our proof if we can define a collection of linear functions satisfying each $a\in A$ maps to precisely one $b\in B$.
+Proving two infinite sets have the same cardinality confuses lots of beginners since two sets have different numbers of elements in most cases. For example, $(0,1)\subset[0,1]$, but they have the same cardinality. The short answer is we apply the concept $\infty+n=\infty$. But what is the meaning of the symbol $\infty$? 
+
+$\infty$, read as infinity, is an idea (not a number) that denotes an object has no end. Thus, for such two infinite sets, $A$ and $B$, we can construct endless pairs ( $a\mapsto b$ and vice versa) between them. Since there exist endless pairs between $A$ and $B$, we can extend the idea of $\infty$ further to conclude they are one-to-one even though the number of elements in A may differ slightly from B's.
+
+But how do we prove two infinite sets have the same cardinality indeed? The strategy is to define a collection of linear functions satisfying each $a\in A$ maps to precisely one $b\in B$.
 
 ---
 
