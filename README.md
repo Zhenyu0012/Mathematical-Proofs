@@ -104,3 +104,9 @@ References:<br>
 ---
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
+
+*Proof*:<br>
+Since $E = 2, 4, 6, 8, ..., 2n$<br>
+&ensp;&ensp;&ensp;&ensp;&ensp; $N = 1, 2, 3, 4, ..., n$,<br>
+we can define a function $f$, s.t., $f(n) = 2n, \forall n\in\mathbb{N}$.<br>
+Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E$ have the same cardinality.
