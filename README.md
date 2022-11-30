@@ -97,7 +97,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 The strategy for proving two arbitrary infinite sets $A$ and $B$ have the same cardinality is to define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. Besides, most important, we can **always** find such functions even though we are confident that the number of elements in $A$ strictly differs from $B$'s.
 
-You may get confused why this method still hold if the number of elements in $A$ strictly differs from $B$'s. The reason for this conclusion is that infinity's identity allows us can always find some unchosen image objects to match with those *surplus* pre-image elements since $\infty \pm n=\infty, n\in\mathbb{N}$.
+You may get confused why this method still hold if the number of elements in $A$ strictly differs from $B$'s. The reason is that infinity's identity, i.e., $\infty \pm n=\infty, n\in\mathbb{N}$, allows us can always pick some unchosen image objects to match with those *surplus* pre-image elements.
 
 References:<br>
 [1]: [Why do the rationals, integers and naturals all have the same cardinality?](https://math.stackexchange.com/questions/182236/why-do-the-rationals-integers-and-naturals-all-have-the-same-cardinality)<br>
@@ -112,3 +112,8 @@ Since $E = 2, 4, 6, 8, ..., 2n$<br>
 &ensp;&ensp;&ensp;&ensp;&ensp; $N = 1, 2, 3, 4, ..., n$,<br>
 we can define a function $f$, s.t., $f(n) = 2n, \forall n\in\mathbb{N}$.<br>
 Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E$ have the same cardinality.
+
+**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
+
+**Example 3**: Show that $N$ and $Q$ have the same cardinality.
+
