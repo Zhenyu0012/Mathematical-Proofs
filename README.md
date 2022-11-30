@@ -95,7 +95,9 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <p align="center">Tricks for proving two infinite sets have the same cardinality</p>
 
-The strategy for proving two arbitrary infinite sets $A$ and $B$ have the same cardinality is to define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. Besides, most important, we can **always** find such functions even though we are confident that the number of elements in $A$ strictly differs from $B$'s. The reason for this conclusion is there always exists some unchosen image objects that can match with those *surplus* pre-image elements since $\infty \pm n=\infty, n\in\mathbb{N}$.
+The strategy for proving two arbitrary infinite sets $A$ and $B$ have the same cardinality is to define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. Besides, most important, we can **always** find such functions even though we are confident that the number of elements in $A$ strictly differs from $B$'s.
+
+You may get confused why this method still hold if the number of elements in $A$ strictly differs from $B$'s. The reason for this conclusion is that infinity's identity allows us can always find some unchosen image objects to match with those *surplus* pre-image elements since $\infty \pm n=\infty, n\in\mathbb{N}$.
 
 References:<br>
 [1]: [Why do the rationals, integers and naturals all have the same cardinality?](https://math.stackexchange.com/questions/182236/why-do-the-rationals-integers-and-naturals-all-have-the-same-cardinality)<br>
