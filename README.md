@@ -96,7 +96,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <p align="center">*Tricks for proving two sets have the same cardinality</p>
 
-Generally, proving two arbitrary sets $A$ and $B$ have the same cardinality depends on whether we can define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. To be specific, there are four standard methods that I often use:
+Generally speaking, proving two arbitrary sets have the same cardinality depends on whether we can find a bijection, i.e., a collection of odd functions, successfully. To be specific, there are four standard methods that I often use:
 
 1. The naive approach. It works to prove common scenarios, such as $|\mathbb{N}|=|\mathbb{Z}^+|$.
 2. Hilbert's Hotel. It works to prove an open interval has the same cardinality as a closed interval, such as $|(0,1)| = |[0,1]|$.
