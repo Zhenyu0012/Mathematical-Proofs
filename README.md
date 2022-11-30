@@ -31,7 +31,8 @@ Assume $n<2^n$, show that $(n+1)<2^{n+1}$.<br>
 Since $n<2^n$, $n+1<2^n+1<2^n+2^n=2^{n+1}$, it concludes that $n+1<2^{n+1}$. <br>
 Therefore, by induction, we prove that $n<2^n$.
 
----
+<br>
+<br>
 
 **Example 2**: Prove that $2n-3\leq 2^{n-2}$ for all $n \geq 5$, $n\in \mathbb{N}$.
 
@@ -48,7 +49,8 @@ $$\begin{aligned}
 
 Therefore, by induction, we prove that $2n-3\leq 2^{n-2}$ for all $n \geq 5$.
 
----
+<br>
+<br>
 
 **Example 3**: Let $(a_n)\_{n\in\mathbb{N}}$ be a sequence, satisfying $a_1=2, a_2=8$, and $a_n=4(a_{n-1}-a_{n-2}), n\ge 3$. Show that $a_n=n\cdot2^n$
 
@@ -59,7 +61,8 @@ Assume $a_j=j\cdot2^j$ for all $1\le j\le k$. Show that $a_{k+1}=(k+1)\cdot2^{k+
 Since $a_{k+1}=4(a_k-a_{k-1})$, by strong induction, $a_{k+1}=4(k2^k-(k-1)2^{k-1})=4(2^{k-1})(2k-k+1)=(k+1)2^{k+1}$<br>
 Therefore, by strong induction, we prove that $a_n=n\cdot2^n$
 
----
+<br>
+<br>
 
 **Example 4**: Let the numbers $x_n$ be defined as follows: $x_1 \coloneqq1, x_2 \coloneqq2$, and $x_{n+2} \coloneqq\frac{1}{2}(x_{n+1} + x_n)$ for all $n\in N$. Use the Principle of Strong Induction to show that $1 \leq x_n\leq 2$ for all $n \in N$.
 
@@ -91,17 +94,9 @@ Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 
 Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
 
----
+<p align="center">*Tricks for proving two infinite sets have the same cardinality</p>
 
-<p align="center">Tricks for proving two infinite sets have the same cardinality</p>
-
-The strategy for proving two arbitrary infinite sets $A$ and $B$ have the same cardinality is to define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. Besides, most important, we can **always** find such functions even though we are confident that the number of elements in $A$ strictly differs from $B$'s.
-
-You may get confused why this method still hold if the number of elements in $A$ strictly differs from $B$'s. The reason is that infinity's identity, i.e., $\infty \pm n=\infty, n\in\mathbb{N}$, allows us can always pick some unchosen image objects to match with those *surplus* pre-image elements.
-
-References:<br>
-[1]: [Why do the rationals, integers and naturals all have the same cardinality?](https://math.stackexchange.com/questions/182236/why-do-the-rationals-integers-and-naturals-all-have-the-same-cardinality)<br>
-[2]: [Hilbert's paradox of the Grand Hotel](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)
+Proving two arbitrary infinite sets $A$ and $B$ have the same cardinality depends on whether or not we can define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$.
 
 ---
 
@@ -116,4 +111,11 @@ Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
 **Example 3**: Show that $N$ and $Q$ have the same cardinality.
+
+---
+
+<p align="center">Further Reading<p>
+
+[1]: [Why do the rationals, integers and naturals all have the same cardinality?](https://math.stackexchange.com/questions/182236/why-do-the-rationals-integers-and-naturals-all-have-the-same-cardinality)<br>
+[2]: [Hilbert's paradox of the Grand Hotel](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel)
 
