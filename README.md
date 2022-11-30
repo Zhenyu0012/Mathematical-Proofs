@@ -94,9 +94,13 @@ Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 
 Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
 
-<p align="center">*Tricks for proving two infinite sets have the same cardinality</p>
+<p align="center">*Tricks for proving two sets have the same cardinality</p>
 
-Proving two arbitrary infinite sets $A$ and $B$ have the same cardinality depends on whether or not we can define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$.
+Proving two arbitrary sets $A$ and $B$ have the same cardinality depends on whether or not we can define a collection of odd functions satisfying each $a\in A$ maps to precisely one $b\in B$. Here are some common tricks:
+1. The naive approach. It works to prove trivial scenarios, such as $|\mathbb{N}|=|\mathbb{Z}^+|$.
+2. Hilbert's Hotel. It works to prove an open interval has the same cardinality as a closed interval, such as $|(0,1)| = |[0,1]|$.
+3. $|A|\le|B|\land|B|\le|A|\Rightarrow|A|=|B|$. It works to prove two open intervals have the same cardinality, such as $|(0,1)|=|(2,4)|$.
+4. The transitivity approach. It works to prove a right-open interval has the same cardinality as a left-open interval, such as $|[0,1)| = |(2,4]|$
 
 ---
 
@@ -110,7 +114,11 @@ Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E
 
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
-**Example 3**: Show that $N$ and $Q$ have the same cardinality.
+**Example 3**: Show that $(0,1)$ and $(2,4)$ have the same cardinality.
+
+**Example 4**: Show that $[0,1)$ and $(2,4]$ have the same cardinality.
+
+**Example 5**: Show that $N$ and $Q$ have the same cardinality.
 
 ---
 
