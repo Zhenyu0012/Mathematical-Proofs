@@ -12,6 +12,8 @@ Let $n\in\mathbb{N}$ (from 1) and $P(n)$ be a statement. Suppose that
 
 Then $P(n)$ is true for all $n\in\mathbb{N}, n\ge n_0$.
 
+<br>
+
 <p align="center">Strong Induction Definition</p>
 
 Let $n\in\mathbb{N}$ and $P(n)$ be a statement. Suppose that
@@ -90,13 +92,15 @@ Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 2. If any $b\in B$, there is $a\in A$, s.t., $f(a)=b$, then $f$ is called onto, or surjective.
 3. If $A\to B$ is both injective and surjective, then $f$ is called bijective (from $A$ to $B$).
 
-<p align="center">Cardinality Definition</p>
+<br>
+
+<p align="center">Theorem 1</p>
 
 Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
 
-<p align="center">*Tricks for proving two sets have the same cardinality</p>
+<br>
 
-Generally speaking, proving two arbitrary sets have the same cardinality depends on whether we can find a bijection, i.e., a collection of odd functions, successfully. To be specific, there are four standard methods that I often use:
+<p align="center">Tricks for proving two sets have the same cardinality</p>
 
 1. The naive approach. It works to prove common scenarios, such as $|\mathbb{N}|=|\mathbb{Z}^+|$.
 2. Hilbert's Hotel. It works to prove an open interval has the same cardinality as a closed interval, such as $|(0,1)| = |[0,1]|$.
@@ -105,7 +109,7 @@ Generally speaking, proving two arbitrary sets have the same cardinality depends
 
 ---
 
-**Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
+**Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality. (The naive approach)
 
 *Proof*:<br>
 Since $E = 2, 4, 6, 8, ..., 2n$<br>
@@ -113,7 +117,26 @@ Since $E = 2, 4, 6, 8, ..., 2n$<br>
 we can define a function $f$, s.t., $f(n) = 2n, \forall n\in\mathbb{N}$.<br>
 Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E$ have the same cardinality.
 
-**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
+<br>
+<br>
+
+**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality. (Hilbert's Hotel)
+
+*Proof*:<br>
+Let $S$ be a set, s.t., $S=\\{\frac{1}{n}, n\in\mathbb{N}\land n \ge 4\\}$.<br>
+Then define $f:(0,1)\to[0,1]$ satisfying<br>
+
+$$f(n)=\begin{cases}
+0, &\mathrm{when\ }n=\frac{1}{2} \\
+1, &\mathrm{when\ }n=\frac{1}{3} \\
+\frac{1}{m-2}, &\mathrm{when\ }n=\frac{1}{m}\land m\ge 4\land m\in\mathbb{N} \\
+n, &\mathrm{when\ }n\notin S
+\end{cases}$$
+
+Therefore, $f$ is a bijection between $(0,1)$ and $[0,1]$, which implies that $(0,1)$ and $[0,1]$ have the same cardinality.
+
+<br>
+<br>
 
 **Example 3**: Show that $(0,1)$ and $(2,4)$ have the same cardinality.
 
