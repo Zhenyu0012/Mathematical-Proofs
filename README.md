@@ -87,7 +87,7 @@ Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 2. If any $b\in B$, there is $a\in A$, s.t., $f(a)=b$, then $f$ is called onto, or surjective.
 3. If $A\to B$ is both injective and surjective, then $f$ is called bijective (from $A$ to $B$).
 
-<p align="center">Cardnality Definition</p>
+<p align="center">Cardinality Definition</p>
 
 Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
 
