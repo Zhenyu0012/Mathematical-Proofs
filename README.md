@@ -118,7 +118,7 @@ Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E
 <br>
 <br>
 
-**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality. (Hilbert's Hotel)
+**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality. ([Hilbert's Hotel](https://math.stackexchange.com/questions/1006445/proving-0-1-and-0-1-have-the-same-cardinality))
 
 *Proof*:<br>
 Let $S$ be a set, s.t., $S=\\{\frac{1}{n}, n\in\mathbb{N}\land n \ge 4\\}$.<br>
@@ -136,11 +136,9 @@ Therefore, $f$ is a bijection between $(0,1)$ and $[0,1]$, which implies that $(
 <br>
 <br>
 
-**Example 3**: Show that $(0,1)$ and $(2,4)$ have the same cardinality.
+**Example 3**: Show that $[0,1)$ and $(2,4]$ have the same cardinality.
 
-**Example 4**: Show that $[0,1)$ and $(2,4]$ have the same cardinality.
-
-**Example 5**: Show that $N$ and $Q$ have the same cardinality.
+**Example 4**: Show that $N$ and $Q$ have the same cardinality.
 
 ---
 
