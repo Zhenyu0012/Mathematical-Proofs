@@ -100,16 +100,14 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <br>
 
-<p align="center">Tricks for proving two sets have the same cardinality</p>
+<p align="center">Tricks for proving two infinite sets have the same cardinality</p>
 
-1. The naive approach. It works to prove common scenarios, such as $|\mathbb{N}|=|\mathbb{Z}^+|$.
-2. Hilbert's Hotel. It works to prove an open interval has the same cardinality as a closed interval, such as $|(0,1)| = |[0,1]|$.
-3. $|A|\le|B|\land|B|\le|A|\Rightarrow|A|=|B|$. It works to prove two open intervals have the same cardinality, such as $|(0,1)|=|(2,4)|$.
-4. The transitivity approach. It works to prove a right-open interval has the same cardinality as a left-open interval, such as $|[0,1)| = |(2,4]|$
+1. Schröder–Bernstein Theorem, i.e., if $|A|\le|B|$ and $|B|\le|A|$ then $|A|=|B|$
+2. Hilbert's Hotel
 
 ---
 
-**Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality. (The naive approach)
+**Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
 *Proof*:<br>
 Since $E = 2, 4, 6, 8, ..., 2n$<br>
@@ -129,7 +127,7 @@ Then define $f:(0,1)\to[0,1]$ satisfying<br>
 $$f(n)=\begin{cases}
 0, &\mathrm{when\ }n=\frac{1}{2} \\
 1, &\mathrm{when\ }n=\frac{1}{3} \\
-\frac{1}{m-2}, &\mathrm{when\ }n=\frac{1}{m}\land m\ge 4\land m\in\mathbb{N} \\
+\frac{1}{m-2}, &\mathrm{when\ }n=\frac{1}{m}, m\ge 4 \mathrm{\ and\ } m\in\mathbb{N} \\
 n, &\mathrm{when\ }n\notin S
 \end{cases}$$
 
