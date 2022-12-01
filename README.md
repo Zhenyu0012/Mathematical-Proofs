@@ -138,7 +138,7 @@ Therefore, $f$ is a bijection between $(0,1)$ and $[0,1]$, which implies that $(
 
 **Example 3**: Show that $[0,1)$ and $(2,4]$ have the same cardinality.
 
-**Example 4**: Show that $N$ and $Q$ have the same cardinality.
+**Example 4**: Show that $\mathbb{N}$ and $\mathbb{Q}$ have the same cardinality.
 
 ---
 
