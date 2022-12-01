@@ -102,7 +102,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <p align="center">Tricks for proving two infinite sets have the same cardinality</p>
 
-1. Cantor–Bernstein Theorem, i.e., if $|A|\le|B|$ and $|B|\le|A|$ then $|A|=|B|$
+1. Cantor-Schröder-Bernstein Theorem, i.e., if $|A|\le|B|$ and $|B|\le|A|$ then $|A|=|B|$
 2. Hilbert's Hotel
 
 ---
