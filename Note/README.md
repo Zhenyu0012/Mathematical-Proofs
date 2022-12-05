@@ -116,7 +116,7 @@ Since $E\subset\mathbb{N}$, it's obvious that $f:E\to\mathbb{N}$ is injective.<b
 
 Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$.<br>
 Suppose that $g(a)=g(b)$, then we have $2a=2b\Rightarrow a=b$. Hence, $g$ is injective.<br>
-Since $S\subseteq E$, it's obvious that $h:S\to E$ is injective, which further proves that $g\circ h:\mathbb{N}\to E$ is injective.
+Since $S\subseteq E$, it's obvious that $h:S\to E$ is injective, which proves that $g\circ h:\mathbb{N}\to E$ is injective.
 
 <p align="center"><img src="../pictures/1.1_example1.2.jpeg" alt="1.1_example2" width="300"/></p>
 
@@ -141,17 +141,24 @@ a&=b
 $$
 
 Hence, $g$ is injective.<br>
-Since $S\subset (0,1)$, it's obvious that $h:S\to(0,1)$ is injective, which further proves that $g\circ h:[0,1]\to(0,1)$ is injective.<br>
+Since $S\subset (0,1)$, it's obvious that $h:S\to(0,1)$ is injective, which proves that $g\circ h:[0,1]\to(0,1)$ is injective.<br>
 Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
 
 <br>
 <br>
 
-**Example 3**: Show that $[0,1)$ and $(2,4]$ have the same cardinality.
+**Example 3**: Show that $\[0,1)$ and $(2,4]$ have the same cardinality.
 
 *Proof*:<br>
-Let $T=[0,4]$. Since $[0,1)\subset T$, it's obvious that $f_1:[0,1)\to T$ is injective.<br>
-Let $g_1:T\to S_1$, s.t.,
+Let $T=[0,4]$.
+
+Since $\[0,1)\subset T$, it's obvious that $f_1:\[0,1)\to T$ is injective.<br>
+Let $g_1:T\to S_1$, s.t., $g_1(x)=\frac{1}{8}x,\forall x\in[0,4]$ and $S_1=[0, \frac{1}{2}]$.<br>
+Suppose that $g_1(a)=g_1(b)$, then we have $\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Hence, $g_1$ is injective.<br>
+Since $S_1\subset\[0,1)$, it's obvious that $h_1:S_1\to\[0,1)$ is injective, which proves that $g_1\circ h_1:T\to\[0,1)$ is injective.<br>
+By Cantor-Schröder-Bernstein Theorem, we prove that $T$ and $\[0,1)$ have the same cardinality.
+
+Similarly, we can use the same approach to prove that $T$ and $(2,4]$ have the same cardinality.
 
 **Example 4**: Show that $\mathbb{N}$ and $\mathbb{Q}$ have the same cardinality.
 
