@@ -119,7 +119,7 @@ Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|
 If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.<br>
 Since $S\subseteq E$, it's obvious that $S$ is injective onto $E$, which further leads to $\mathbb{N}$ being injective onto $E$.
 
-<p align="center"><img src="https://github.com/Zhenyu0012/Mathematical-Proofs/blob/main/pictures/1.1_example2.png" alt="1.1_example2" width="350"/></p>
+<p align="center"><img src="https://github.com/Zhenyu0012/Mathematical-Proofs/blob/main/pictures/1.1_example2.jpeg" alt="1.1_example2" width="400"/></p>
 
 Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
 
