@@ -144,5 +144,6 @@ Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the s
 
 <p align="center">Further Reading<p>
 
-[1]: [Class Notes from Millersville University](https://sites.millersville.edu/bikenaga/math-proof/cardinality/cardinality.pdf)
+[1]: [Class Notes from Millersville University](https://sites.millersville.edu/bikenaga/math-proof/cardinality/cardinality.pdf)<br>
+[2]: [Proof of Cantor-Schröder-Bernstein Theorem](http://www.cs.cornell.edu/courses/cs2800/2017fa/lectures/lec14-cantor.html)
 
