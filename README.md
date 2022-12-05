@@ -102,18 +102,21 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 <p align="center">Tricks for proving two infinite sets have the same cardinality</p>
 
-1. Cantor-Schröder-Bernstein Theorem, i.e., if $|A|\le|B|$ and $|B|\le|A|$ then $|A|=|B|$
-2. Hilbert's Hotel
+- Defining a bijection directly if the case is trivial, i.e., two sets are finite.
+- Cantor-Schröder-Bernstein Theorem<sup>[1]</sup>: Let $S$ and $T$ be sets. Suppose there are injective functions $f: S \to T$ and $g: T \to S$. Then $S$ and $T$ have the same cardinality.
 
 ---
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
 *Proof*:<br>
-Since $E = 2, 4, 6, 8, ..., 2n$<br>
-&ensp;&ensp;&ensp;&ensp;&ensp; $N = 1, 2, 3, 4, ..., n$,<br>
-we can define a function $f$, s.t., $f(n) = 2n, \forall n\in\mathbb{N}$.<br>
-Therefore, $f$ is a bijection between $N$ and $E$, which implies that $N$ and $E$ have the same cardinality.
+Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, s.t., $f(x)=x,\forall x\in E$.<br>
+If $f(a)=f(b)$, then $a=b$, so $f$ is injective.
+
+Let $g:\mathbb{N}\to E'$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $E'=\\{2x|x\in\mathbb{N}\\}\subseteq E$.<br>
+If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.<br>
+
+Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
 
 <br>
 <br>
@@ -144,5 +147,5 @@ Therefore, $f$ is a bijection between $(0,1)$ and $[0,1]$, which implies that $(
 
 <p align="center">Further Reading<p>
 
-[1]: [Why do the rationals, integers and naturals all have the same cardinality?](https://math.stackexchange.com/questions/182236/why-do-the-rationals-integers-and-naturals-all-have-the-same-cardinality)
+[1]: [Class Notes from Millersville University](https://sites.millersville.edu/bikenaga/math-proof/cardinality/cardinality.pdf)
 
