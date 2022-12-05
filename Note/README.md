@@ -117,7 +117,7 @@ If $f(a)=f(b)$, then $a=b$, so $f$ is injective.
 
 Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$.<br>
 If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.<br>
-Since $S\subseteq E$, it's obvious that $S$ is injective onto $E$, which further leads to $\mathbb{N}$ being injective onto $E$.
+Since $S\subseteq E$, it's obvious that $h:S\to E$ is injective, which further proves that $g\circ h:\mathbb{N}\to E$ is injective.
 
 <p align="center"><img src="../pictures/1.1_example1.2.jpeg" alt="1.1_example2" width="300"/></p>
 
@@ -129,11 +129,11 @@ Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the 
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
 *Proof*:<br>
-Since $(0,1)\subset[0,1]$, it's obvious that $(0,1)$ is injective onto $[0,1]$.
+Since $(0,1)\subset[0,1]$, it's obvious that $f:(0,1)\to[0,1]$ is injective.
 
 Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$.<br>
 If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$, so $g$ is injective.<br>
-Since $S\subseteq (0,1)$, it's obvious that $S$ is injective onto $(0,1)$, which further leads to $[0,1]$ being injective onto $(0,1)$.
+Since $S\subseteq (0,1)$, it's obvious that $h:S\to(0,1)$ is injective, which further proves that $g\circ h:[0,1]\to(0,1)$ is injective.
 
 Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
 
