@@ -114,27 +114,23 @@ Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, s.t., $f
 If $f(a)=f(b)$, then $a=b$, so $f$ is injective.
 
 Let $g:\mathbb{N}\to E'$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $E'=\\{2x|x\in\mathbb{N}\\}\subseteq E$.<br>
-If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.<br>
+If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.
 
 Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
 
 <br>
 <br>
 
-**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality. ([Hilbert's Hotel](https://math.stackexchange.com/questions/1006445/proving-0-1-and-0-1-have-the-same-cardinality))
+**Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
 *Proof*:<br>
-Let $S$ be a set, s.t., $S=\\{\frac{1}{n}, n\in\mathbb{N}\land n \ge 4\\}$.<br>
-Then define $f:(0,1)\to[0,1]$ satisfying<br>
+Since $(0,1)\subset[0,1]$, it's obvious to see that $|(0,1)|\le|[0,1]|$.
 
-$$f(n)=\begin{cases}
-0, &\mathrm{when\ }n=\frac{1}{2} \\
-1, &\mathrm{when\ }n=\frac{1}{3} \\
-\frac{1}{m-2}, &\mathrm{when\ }n=\frac{1}{m}, m\ge 4 \mathrm{\ and\ } m\in\mathbb{N} \\
-n, &\mathrm{when\ }n\notin S
-\end{cases}$$
+Let $g:[0,1]\to (0,1)$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$.<br>
+If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$, so $g$ is injective.<br>
+Since $[\frac{1}{10},\frac{3}{5}]\subseteq(0,1)$, this proves that $|[0,1]|\le|(0,1)|$.
 
-Therefore, $f$ is a bijection between $(0,1)$ and $[0,1]$, which implies that $(0,1)$ and $[0,1]$ have the same cardinality.
+Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
 
 <br>
 <br>
