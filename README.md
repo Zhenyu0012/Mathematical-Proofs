@@ -113,7 +113,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, s.t., $f(x)=x,\forall x\in E$.<br>
 If $f(a)=f(b)$, then $a=b$, so $f$ is injective.
 
-Let $g:\mathbb{N}\to E'$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $E'=\\{2x|x\in\mathbb{N}\\}\subseteq E$.<br>
+Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}\subseteq E$.<br>
 If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.<br>
 
 Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
@@ -126,7 +126,7 @@ Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the 
 *Proof*:<br>
 Since $(0,1)\subset[0,1]$, it's obvious to see that $(0,1)$ is injective onto $[0,1]$.
 
-Let $g:[0,1]\to (0,1)$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $[\frac{1}{10},\frac{3}{5}]\subseteq(0,1)$.<br>
+Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]\subseteq(0,1)$.<br>
 If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$, so $g$ is injective.<br>
 
 Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
