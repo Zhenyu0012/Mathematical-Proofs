@@ -113,6 +113,8 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, s.t., $f(x)=x,\forall x\in E$.<br>
 If $f(a)=f(b)$, then $a=b$, so $f$ is injective.
 
+<p align="center"><img src="https://github.com/Zhenyu0012/Mathematical-Proofs/blob/main/pictures/1.1_example1.png" alt="1.1_example1" width="350"/></p>
+
 Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$.<br>
 If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow2a=2b\Rightarrow a=b$, so $g$ is injective.<br>
 Since $S\subseteq E$, it's obvious that $S$ is injective onto $E$, which further leads to $\mathbb{N}$ being injective onto $E$.
