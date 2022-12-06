@@ -130,22 +130,11 @@ Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the 
 
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
-Since $(0,1)\subset[0,1]$, it's obvious that $f:(0,1)\to[0,1]$ is injective.
+Since $(0,1)\subset[0,1]$, there exists an intutive function $f:(0,1)\to[0,1]$, namely the identity function $f(x)=x,\forall x\in (0,1)$. Suppose $f(a)=f(b)$, then $a=b$. Hence, we prove that $f$ is injective.
 
-Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$.<br>
-Suppose that $g(a)=g(b)$, then we have 
+Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$. Suppose $g(a)=g(b)$, then $\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Thus, $g$ is injective.
 
-$$
-\begin{aligned}
-\frac{1}{2}a+\frac{1}{10}&=\frac{1}{2}b+\frac{1}{10}\\
-\frac{1}{2}a&=\frac{1}{2}b\\
-a&=b
-\end{aligned}
-$$
-
-Hence, $g$ is injective.
-
-Since $S\subset (0,1)$, it's obvious that $h:S\to(0,1)$ is injective, which proves that $g\circ h:[0,1]\to(0,1)$ is injective.
+Since $S\subset (0,1)$, we have an identity function $h:S\to(0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:[0,1]\to (0,1)$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Therefore, $(g\circ h)(x)$ is injective.
 
 Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
 
