@@ -111,48 +111,42 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
-Since $E\subset\mathbb{N}$, there exists an intuitive injective function $f:E\to\mathbb{N}$, namely the identity function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $a=b$. Hence, we prove that $f$ is injective.
+Since $E\subset\mathbb{N}$, there exists an intuitive injective function $f:E\to\mathbb{N}$, namely the identity function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $a=b$. Hence, we prove that $f$ is injective. $\color{red}{(1)}$
 
 <p align="center"><img src="../pictures/1.1_example1.1.jpeg" alt="1.1_example1" width="175"/></p>
 
-Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$. Suppose $g(a)=g(b)$, then $2a=2b\Rightarrow a=b$. Hence, $g$ is injective.
+Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$. Suppose $g(a)=g(b)$, then $2a=2b\Rightarrow a=b$. Hence, $g$ is injective. $\color{red}{(2)}$
 
 <p align="center"><img src="../pictures/1.1_example1.3.jpeg" alt="1.1_example2" width="175"/></p>
 
-Since $S\subseteq E$, there also exists an identity function $h:S\to E$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:\mathbb{N}\to E$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, then by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Hence, $(g\circ h)(x)$ is injective.
+Since $S\subseteq E$, there also exists an identity function $h:S\to E$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:\mathbb{N}\to E$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, then by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Hence, $g\circ h$ is injective. $\color{red}{(3)}$
 
 <p align="center"><img src="../pictures/1.1_example1.2.jpeg" alt="1.1_example3" width="275"/></p>
 
-Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
+Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality. $\color{red}{(4)}$
 
 <br>
 <br>
 
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
-Since $(0,1)\subset[0,1]$, there exists an intutive function $f:(0,1)\to[0,1]$, namely the identity function $f(x)=x,\forall x\in (0,1)$. Suppose $f(a)=f(b)$, then $a=b$. Hence, we prove that $f$ is injective.
-
-Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$. Suppose $g(a)=g(b)$, then $\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Thus, $g$ is injective.
-
-Since $S\subset (0,1)$, we have an identity function $h:S\to(0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:[0,1]\to (0,1)$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Therefore, $(g\circ h)(x)$ is injective.
-
-Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
+Since $(0,1)\subset[0,1]$, there exists an intutive function $f:(0,1)\to[0,1]$, namely the identity function $f(x)=x,\forall x\in (0,1)$. Suppose $f(a)=f(b)$, then $a=b$. Thus, we prove that $f$ is injective. $\color{red}{(1)}$ Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$. Suppose $g(a)=g(b)$, then $\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Thus, $g$ is injective. $\color{red}{(2)}$ Since $S\subset (0,1)$, we have an id function $h:S\to(0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:[0,1]\to (0,1)$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Thus, $g\circ h$ is injective. $\color{red}{(3)}$ Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality. $\color{red}{(4)}$
 
 <br>
 <br>
 
 **Example 3**: Show that $\[0,1)$ and $(2,4]$ have the same cardinality.
 
-*Proof*:<br>
-Let $T=[0,4]$.
+Let $T$ be an interval, s.t., $T=[0,4]$.
 
-Since $\[0,1)\subset T$, it's obvious that $f_1:\[0,1)\to T$ is injective.<br>
-Let $g_1:T\to S_1$, s.t., $g_1(x)=\frac{1}{8}x,\forall x\in[0,4]$ and $S_1=[0, \frac{1}{2}]$.<br>
-Suppose that $g_1(a)=g_1(b)$, then we have $\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Hence, $g_1$ is injective.<br>
-Since $S_1\subset\[0,1)$, it's obvious that $h_1:S_1\to\[0,1)$ is injective, which proves that $g_1\circ h_1:T\to\[0,1)$ is injective.<br>
-By Cantor-Schröder-Bernstein Theorem, we prove that $T$ and $\[0,1)$ have the same cardinality.
+Since $\[0,1)\subset T$, there exists a function, $f:\[0,1)\to T$, namely the identity function $f(x)=x,\forall x\in\[0,1)$. If $f(a)=f(b)$, then $a=b$. Hence, $f$ is injective. $\color{red}{(1)}$ Let $g:T\to S$, s.t., $g(x)=\frac{1}{8}x,\forall x\in T$ and $S=[0, \frac{1}{2}]$. Suppose $g(a)=g(b)$, then $\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Thus, $g$ is injective. $\color{red}{(2)}$ Since $S\subset\[0,1)$, we have an identity function $h:S\to\[0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:T\to\[0,1)$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Therefore, $g\circ h$ is injective. $\color{red}{(3)}$ Thus, by Cantor-Schröder-Bernstein Theorem, we prove that $T$ and $\[0,1)$ have the same cardinality. $\color{red}{(4)}$
 
 Similarly, we can use the same approach to prove that $T$ and $(2,4]$ have the same cardinality.
+
+Since $|\[0,1)|=|T|$ and $|(2,4]|=|T|$, in conclusion, $\[0,1)$ and $(2,4]$ have the same cardinality.
+
+<br>
+<br>
 
 **Example 4**: Show that $\mathbb{N}$ and $\mathbb{Q}$ have the same cardinality.
 
