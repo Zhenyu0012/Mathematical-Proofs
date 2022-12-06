@@ -111,16 +111,15 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
-Since $E\subset\mathbb{N}$, it's obvious that $f:E\to\mathbb{N}$ is injective.
+&emsp;&emsp;&ensp;Since $E\subset\mathbb{N}$, there exists an intuitive injective function $f:E\to\mathbb{N}$, namely the identity function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $a=b$. Hence, we prove that $f$ is injective.
 
 <p align="center"><img src="../pictures/1.1_example1.1.jpeg" alt="1.1_example1" width="175"/></p>
 
-Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$.<br>
-Suppose that $g(a)=g(b)$, then we have $2a=2b\Rightarrow a=b$. Hence, $g$ is injective.
+&emsp;&emsp;&ensp;Let $g:\mathbb{N}\to S$, s.t., $g(x) = 2x, \forall x\in\mathbb{N}$ and $S=\\{2x|x\in\mathbb{N}\\}$. Suppose that $g(a)=g(b)$, then $2a=2b\Rightarrow a=b$. Hence, $g$ is injective.
 
 <p align="center"><img src="../pictures/1.1_example1.3.jpeg" alt="1.1_example2" width="175"/></p>
 
-Since $S\subseteq E$, it's obvious that $h:S\to E$ is injective, which proves that $g\circ h:\mathbb{N}\to E$ is injective.
+&emsp;&emsp;&ensp;Since $S\subseteq E$, there also exists an identity function $h:S\to E$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:\mathbb{N}\to E$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, then by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Hence, $(g\circ h)(x)$ is injective.
 
 <p align="center"><img src="../pictures/1.1_example1.2.jpeg" alt="1.1_example3" width="275"/></p>
 
@@ -144,8 +143,10 @@ a&=b
 \end{aligned}
 $$
 
-Hence, $g$ is injective.<br>
-Since $S\subset (0,1)$, it's obvious that $h:S\to(0,1)$ is injective, which proves that $g\circ h:[0,1]\to(0,1)$ is injective.<br>
+Hence, $g$ is injective.
+
+Since $S\subset (0,1)$, it's obvious that $h:S\to(0,1)$ is injective, which proves that $g\circ h:[0,1]\to(0,1)$ is injective.
+
 Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
 
 <br>
