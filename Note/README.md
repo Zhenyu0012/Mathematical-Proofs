@@ -111,7 +111,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
-Since $E\subset\mathbb{N}$, there exists an intuitive injective function $f:E\to\mathbb{N}$, namely the identity function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Hence, we prove that $f$ is injective. $\color{red}{(1)}$
+Since $E\subset\mathbb{N}$, there exists an intuitive injective function $f:E\to\mathbb{N}$, namely the identity function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Hence, $f$ is injective. $\color{red}{(1)}$
 
 <p align="center"><img src="../pictures/1.1_example1.1.jpeg" alt="1.1_example1" width="175"/></p>
 
@@ -130,7 +130,7 @@ Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the 
 
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
-Since $(0,1)\subset[0,1]$, there exists an intutive function $f:(0,1)\to[0,1]$, namely the identity function $f(x)=x,\forall x\in (0,1)$. Suppose $f(a)=f(b)$, then $a=b$. Thus, we prove that $f$ is injective. $\color{red}{(1)}$ Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$. Suppose $g(a)=g(b)$, then $\frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Thus, $g$ is injective. $\color{red}{(2)}$ Since $S\subset (0,1)$, we have an id function $h:S\to(0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g\circ h:[0,1]\to (0,1)$. Suppose $(g\circ h)(a)=(g\circ h)(b)$, by injectivity for both $h$ and $g$, $g(h(a))=g(h(b))\Rightarrow g(a)=g(b)\Rightarrow a=b$. Thus, $g\circ h$ is injective. $\color{red}{(3)}$ Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality. $\color{red}{(4)}$
+Since $(0,1)\subset[0,1]$, there exists an intutive function $f:(0,1)\to[0,1]$, namely the identity function $f(x)=x,\forall x\in (0,1)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Thus, $f$ is injective. $\color{red}{(1)}$ Let $g:[0,1]\to S$, s.t., $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$ and $S=[\frac{1}{10},\frac{3}{5}]$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow \frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Thus, $g$ is injective. $\color{red}{(2)}$ Since $S\subset (0,1)$, there exists an identity function $h:S\to(0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g':[0,1]\to (0,1)$, s.t., $g'(x)=g(h(x)), \forall x\in[0,1]$. If $g'(a)=g'(b)$, by injectivity for both $h$ and $g$, $g'(a)=g'(b)\Rightarrow a=b$. Thus, $g'$ is injective. $\color{red}{(3)}$ Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality. $\color{red}{(4)}$
 
 <br>
 <br>
