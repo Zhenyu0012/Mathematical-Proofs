@@ -139,7 +139,24 @@ Let $f(x)=x+3,\forall x\in\[0,1)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarr
 <br>
 <br>
 
-**Example 4**: Show that $\mathbb{N}$ and $\mathbb{Q}$ have the same cardinality.
+**Example 4**: Show that $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
+
+Clearly, $\mathbb{N}$ injects into $\mathbb{Z}$. Let $g(x)$ be a pisewise function, s.t.,
+
+$$
+g(x)=\begin{cases}
+0&\mathrm{if\ }x=1\\
+-\frac{x}{2}&\mathrm{if\ }x\mathrm{\ is\ even}\\
+\frac{x-1}{2}&\mathrm{if\ }x\mathrm{\ is\ odd}\\
+\end{cases}
+$$
+
+Clearly, $g^{-1}(0)=1$. Suppose $g(2a)=g(2b)$, then $g(2a)=g(2b)\Rightarrow \frac{-2a}{2}=\frac{-2b}{2}\Rightarrow -a=-b\Rightarrow a=b$. Similarly, suppose $g(2a+1)=g(2b+1)$, then $g(2a+1)=g(2b+1)\Rightarrow \frac{-2a+1}{2}=\frac{-2b+1}{2}\Rightarrow -a+\frac{1}{2}=-b+\frac{1}{2}\Rightarrow -a=-b\Rightarrow a=b$. Therefore, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
+
+<br>
+<br>
+
+**Example 5**: Show that $\mathbb{N}$ and $\mathbb{Q}$ have the same cardinality.
 
 ---
 
