@@ -94,8 +94,8 @@ Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 
 <p align="center"><b>Cardinality Definition</b></p>
 
-Let $S$ be a set. We use cardinality to denote the number of elements in $S$.<br>
-Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
+- Let $S$ be a set. We use cardinality to denote the number of elements in $S$.<br>
+- Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
 
 <p align="center"><b>Denumerable Definition</b></p>
 
