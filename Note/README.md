@@ -111,7 +111,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
-Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely the function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Thus, $f$ is injective. Let $g(x) = 4x, \forall x\in\mathbb{N}$. If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 4a=4b\Rightarrow a=b$. Hence, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
+Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely the function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Thus, $f$ is injective. Let $g(x) = 4x, \forall x\in\mathbb{N}$. If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 4a=4b\Rightarrow a=b$. Thus, $g$ is injective. Thus, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
 
 <p align="center">
   <img src="../pictures/1.1_example1.1.jpg" alt="1.1_example1" width="18%"/>
