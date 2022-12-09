@@ -111,7 +111,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
-Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely the function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Hence, $f$ is injective. $\color{red}{(1)}$ Let $g:\mathbb{N}\to S$, s.t., $g(x) = 4x, \forall x\in\mathbb{N}$ and $S=\\{4x|x\in\mathbb{N}\\}$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 4a=4b\Rightarrow a=b$. Hence, $g$ is injective. $\color{red}{(2)}$ Since $S\subset E$, therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality. $\color{red}{(3)}$
+Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely the function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Hence, $f$ is injective. $\color{red}{(1)}$ Let $S=\\{4x|x\in\mathbb{N}\\}$ and $g:\mathbb{N}\to S$, s.t., $g(x) = 4x, \forall x\in\mathbb{N}$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 4a=4b\Rightarrow a=b$. Hence, $g$ is injective. $\color{red}{(2)}$ Since $S\subset E$, therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality. $\color{red}{(3)}$
 
 <p align="center">
   <img src="../pictures/1.1_example1.1.jpg" alt="1.1_example1" width="18%"/>
@@ -119,7 +119,7 @@ Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely t
   <img src="../pictures/1.1_example1.2.jpg" alt="1.1_example2" width="18%"/>
   <br>
   <br>
-  $f:E\to \mathbb{N} $&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $g:\mathbb{N}\to S(E)$
+  $f:E\to \mathbb{N}$ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; $g:\mathbb{N}\to S(E)$
 </p>
 
 <br>
