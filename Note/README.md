@@ -3,7 +3,7 @@ INTRODUCTION TO REAL ANALYSIS, by Robert G. Bartle & Donald R. Sherbert, 4th edi
 
 ## $\S 1.2,1.3\ \mathrm{Principle\ of\ Induction}$ 
 
-<p align="center">Induction Definition</p>
+<p align="center"><b>Induction Definition</b></p>
 
 Let $n\in\mathbb{N}$ (from 1) and $P(n)$ be a statement. Suppose that
 
@@ -12,9 +12,7 @@ Let $n\in\mathbb{N}$ (from 1) and $P(n)$ be a statement. Suppose that
 
 Then $P(n)$ is true for all $n\in\mathbb{N}, n\ge n_0$.
 
-<br>
-
-<p align="center">Strong Induction Definition</p>
+<p align="center"><b>Strong Induction Definition</b></p>
 
 Let $n\in\mathbb{N}$ and $P(n)$ be a statement. Suppose that
 
@@ -87,28 +85,23 @@ Therefore, by strong induction, we prove that $1 \leq x_n\leq 2$ for all $n \in 
 
 ## $\S 1.1\ \mathrm{Sets\ and\ Functions}$
 
-<p align="center">Injection, Surjection, and Bijection Definitions</p>
+<p align="center"><b>Injection, Surjection, and Bijection Definitions</b></p>
 
 Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 1. If $f(x_1)\ne f(x_2)$ whenever $x_1\ne x_2$, then $f$ is called one-to-one, or injective.
 2. If any $b\in B$, there is $a\in A$, s.t., $f(a)=b$, then $f$ is called onto, or surjective.
 3. If $A\to B$ is both injective and surjective, then $f$ is called bijective (from $A$ to $B$).
 
-<br>
+<p align="center"><b>Cardinality Definition</b></p>
 
-<p align="center">Cardinality Definition</p>
-
+Let $S$ be a set. We use cardinality to denote the number of elements in $S$.<br>
 Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
 
-<br>
-
-<p align="center">Denumerable (or infinitely countable) Definition</p>
+<p align="center"><b>Denumerable Definition</b></p>
 
 Let $S$ be a set. If $S$ and $\mathbb{N}$ have the same cardinality, then $S$ is called denumerable, or infinitely countable.
 
-<br>
-
-<p align="center">Tricks for proving two infinite sets have the same cardinality</p>
+<p align="center"><b>Tricks for proving two infinite sets have the same cardinality</b></p>
 
 - Defining a bijection directly if the case is trivial, i.e., two sets are finite.
 - Cantor-Schröder-Bernstein Theorem<sup>[1]</sup>: Let $S$ and $T$ be sets. Suppose there are injective functions $f: S \to T$ and $g: T \to S$. Then $S$ and $T$ have the same cardinality.
