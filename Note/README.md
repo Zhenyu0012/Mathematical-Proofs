@@ -134,14 +134,7 @@ Clearly, $(0,1)$ injects into $[0,1]$. $\color{red}{(1)}$ Let $g(x) = \frac{1}{2
 
 **Example 3**: Show that $\[0,1)$ and $(2,4]$ have the same cardinality.
 
-$\color{blue}{Prove\ |\[0,1)|=|T|}$<br>
-Let $T$ be an interval, s.t., $T=[0,4]$. $\color{red}{(0)}$ Since $\[0,1)\subset T$, there exists an intuitive injective function, $f:\[0,1)\to T$, namely the identity function $f(x)=x,\forall x\in\[0,1)$. If $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Thus, $f$ is injective. $\color{red}{(1)}$ Let $g:T\to S$, s.t., $g(x)=\frac{1}{8}x$ for all $x\in T$ and $S=[0, \frac{1}{2}]$. If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Thus, $g$ is injective. $\color{red}{(2)}$ Since $S\subset\[0,1)$, there exists an identity function $h:S\to\[0,1)$, s.t., $h(x)=x,\forall x\in S$. Let $g':T\to\[0,1)$, s.t., $g'(x)=g(h(x))$ for all $x\in T$. If $g'(a)=g'(b)$, by injectivity for both $h$ and $g$, $g'(a)=g'(b)\Rightarrow a=b$. Thus, $g'$ is injective. $\color{red}{(3)}$ Therefore, by Cantor-Schröder-Bernstein Theorem, we prove that $T$ and $\[0,1)$ have the same cardinality. $\color{red}{(4)}$
-
-$\color{blue}{Prove\ |\(2,4]|=|T|}$<br>
-Similarly, we can use the same approach to prove that $T$ and $(2,4]$ have the same cardinality.
-
-$\color{blue}{Conclusion}$<br>
-Since $|\[0,1)|=|T|$ and $|(2,4]|=|T|$, in conclusion, $\[0,1)$ and $(2,4]$ have the same cardinality.
+Let $f(x)=x+3,\forall x\in\[0,1)$. Let $S$ be the image of $f$, and clearly, $S=\[3,4)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a+3=b+3\Rightarrow a=b$. Thus, $f$ is injective. Since $S\subset(2,4]$, this proves that $\[0,1)$ injects into $(2,4]$. $\color{red}{(1)}$ Let $g(x)=\frac{1}{8}x,\forall x\in(2,4]$. Let $T$ be the image of $g$, and clearly, $g=(\frac{1}{4},\frac{1}{2}]$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Hence, $g$ is injective. Since $T\subset\[0,1)$, this proves that $(2,4]$ injects into $\[0,1)$. $\color{red}{(2)}$ Therefore, by Cantor-Schröder-Bernstein Theorem, we prove that $\[0,1)$ and $(2,4]$ have the same cardinality. $\color{red}{(3)}$
 
 <br>
 <br>
