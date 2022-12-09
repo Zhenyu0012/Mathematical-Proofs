@@ -141,17 +141,16 @@ Let $f(x)=x+3,\forall x\in\[0,1)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarr
 
 **Example 4**: Show that $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
 
-Clearly, $\mathbb{N}$ injects into $\mathbb{Z}$. Let $g(x)$ be a pisewise function, s.t.,
+Clearly, $\mathbb{N}$ injects into $\mathbb{Z}$. Let $g:\mathbb{Z}\to\mathbb{N}$ be a pisewise function, s.t.,
 
 $$
 g(x)=\begin{cases}
-0&\mathrm{if\ }x=1\\
--\frac{x}{2}&\mathrm{if\ }x\mathrm{\ is\ even}\\
-\frac{x-1}{2}&\mathrm{if\ }x\mathrm{\ is\ odd}\\
+2x+1&\mathrm{if\ }x\ge0\\
+-2x&\mathrm{if\ }x<0\\
 \end{cases}
 $$
 
-Clearly, $g^{-1}(0)=1$. Suppose $g(2a)=g(2b)$, then $g(2a)=g(2b)\Rightarrow \frac{-2a}{2}=\frac{-2b}{2}\Rightarrow -a=-b\Rightarrow a=b$. Similarly, suppose $g(2a+1)=g(2b+1)$, then $g(2a+1)=g(2b+1)\Rightarrow \frac{-2a+1}{2}=\frac{-2b+1}{2}\Rightarrow -a+\frac{1}{2}=-b+\frac{1}{2}\Rightarrow -a=-b\Rightarrow a=b$. Therefore, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
+Suppose $a$ and $b$ are both non-negative and $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 2a+1=2b+1\Rightarrow 2a=2b\Rightarrow a=b$. Similarly, suppose $a$ and $b$ are both negative and $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow -2a=-2b\Rightarrow a=b$. Hence, $g$ is injective. Thus, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
 
 <br>
 <br>
