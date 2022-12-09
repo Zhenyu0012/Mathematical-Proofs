@@ -111,7 +111,7 @@ Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ a
 
 **Example 1**: Show that $E=\\{2n|n\in\mathbb{N}\\}$ and $\mathrm{N}$ have the same cardinality.
 
-Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely the function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Thus, $f$ is injective. $\color{red}{(1)}$ Let $g(x) = 4x, \forall x\in\mathbb{N}$. Let $S$ be the image of $g$, and clearly, $S=\\{4x|x\in\mathbb{N}\\}$. If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 4a=4b\Rightarrow a=b$. Hence, $g$ is injective. $\color{red}{(2)}$ Since $S\subset E$, therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality. $\color{red}{(3)}$
+Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely the function $f(x)=x,\forall x\in E$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a=b$. Thus, $f$ is injective. Let $g(x) = 4x, \forall x\in\mathbb{N}$. If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 4a=4b\Rightarrow a=b$. Hence, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $E$ have the same cardinality.
 
 <p align="center">
   <img src="../pictures/1.1_example1.1.jpg" alt="1.1_example1" width="18%"/>
@@ -127,14 +127,14 @@ Since $E\subset\mathbb{N}$, there exists a function $f:E\to\mathbb{N}$, namely t
 
 **Example 2**: Show that $(0,1)$ and $[0,1]$ have the same cardinality.
 
-Clearly, $(0,1)$ injects into $[0,1]$. $\color{red}{(1)}$ Let $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$. Let $S$ be the image of $g$, and clearly, $S=[\frac{1}{10},\frac{3}{5}]$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow \frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Hence, $g$ is injective. $\color{red}{(2)}$ Since $S\subset (0,1)$, therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality. $\color{red}{(3)}$
+Clearly, $(0,1)$ injects into $[0,1]$. Let $g(x) = \frac{1}{2}x+\frac{1}{10}, \forall x\in[0,1]$. If $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow \frac{1}{2}a+\frac{1}{10}=\frac{1}{2}b+\frac{1}{10}\Rightarrow\frac{1}{2}a=\frac{1}{2}b\Rightarrow a=b$. Hence, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $[0,1]$ and $(0,1)$ have the same cardinality.
 
 <br>
 <br>
 
 **Example 3**: Show that $\[0,1)$ and $(2,4]$ have the same cardinality.
 
-Let $f(x)=x+3,\forall x\in\[0,1)$. Let $S$ be the image of $f$, and clearly, $S=\[3,4)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a+3=b+3\Rightarrow a=b$. Thus, $f$ is injective. Since $S\subset(2,4]$, this proves that $\[0,1)$ injects into $(2,4]$. $\color{red}{(1)}$ Let $g(x)=\frac{1}{8}x,\forall x\in(2,4]$. Let $T$ be the image of $g$, and clearly, $g=(\frac{1}{4},\frac{1}{2}]$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Hence, $g$ is injective. Since $T\subset\[0,1)$, this proves that $(2,4]$ injects into $\[0,1)$. $\color{red}{(2)}$ Therefore, by Cantor-Schröder-Bernstein Theorem, we prove that $\[0,1)$ and $(2,4]$ have the same cardinality. $\color{red}{(3)}$
+Let $f(x)=x+3,\forall x\in\[0,1)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarrow a+3=b+3\Rightarrow a=b$. Thus, $f$ is injective. Let $g(x)=\frac{1}{8}x,\forall x\in(2,4]$. Suppose $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow\frac{1}{8}a=\frac{1}{8}b\Rightarrow a=b$. Hence, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\[0,1)$ and $(2,4]$ have the same cardinality.
 
 <br>
 <br>
