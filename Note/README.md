@@ -96,9 +96,15 @@ Let $S$ be a set. Let $f: A\to B$, i.e. $a\to f(a)$, be a function.
 
 <br>
 
-<p align="center">Theorem 1</p>
+<p align="center">Cardinality Definition</p>
 
 Let $A, B$ be sets. If there is bijection between $A$ and $B$, then we say $A$ and $B$ have the same cardinality.
+
+<br>
+
+<p align="center">Denumerable (or infinitely countable) Definition</p>
+
+Let $S$ be a set. If $S$ and $\mathbb{N}$ have the same cardinality, then $S$ is called denumerable, or infinitely countable.
 
 <br>
 
