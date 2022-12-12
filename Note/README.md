@@ -150,7 +150,14 @@ g(x)=\begin{cases}
 \end{cases}
 $$
 
-Suppose $a$ and $b$ are both non-negative and $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow 2a+1=2b+1\Rightarrow 2a=2b\Rightarrow a=b$. Similarly, suppose $a$ and $b$ are both negative and $g(a)=g(b)$, then $g(a)=g(b)\Rightarrow -2a=-2b\Rightarrow a=b$. Hence, $g$ is injective. Thus, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
+Prove by contrapositive, let $a,b\in\mathbb{Z}$ and suppose $a\ne b$. Then, there are three cases to consider.<br>
+**Case 1**: $a\ge0$ and $b\ge0$\
+&emsp;&emsp;&emsp;&ensp; Then $g(a)=2a+1\ne2b+1=g(b)$ since $a\ne b$.\
+**Case 2**: $a<0$ and $b<0$\
+&emsp;&emsp;&emsp;&ensp;&thinsp; Then $g(a)=-2a\ne-2b=g(b)$ since $a\ne b$.\
+**Case 3**: WLOG, $a<0$ and $b\ge0$\
+&emsp;&emsp;&emsp;&ensp;&thinsp; Then $g(a)=-2a\ne2b+1=g(b)$ since LHS is even while RHS is odd.\
+Thus, in all cases we prove $a\ne b\Longrightarrow g(a)\ne g(b)$. Hence, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
 
 <br>
 <br>
