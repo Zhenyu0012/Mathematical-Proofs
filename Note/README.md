@@ -150,7 +150,7 @@ g(x)=\begin{cases}
 \end{cases}
 $$
 
-Prove by contrapositive, let $a,b\in\mathbb{Z}$ and suppose $a\ne b$. Then, there are three cases to consider.<br>
+Let $a,b\in\mathbb{Z}$ and suppose $a\ne b$. Then, there are three cases to consider.<br>
 **Case 1**: $a\ge0$ and $b\ge0$\
 &emsp;&emsp;&emsp;&ensp; Then $a\ne b\Rightarrow 2a\ne 2b\Rightarrow 2a+1\ne 2b+1\Rightarrow g(a)\ne g(b)$.\
 **Case 2**: $a<0$ and $b<0$\
