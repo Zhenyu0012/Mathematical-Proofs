@@ -139,7 +139,7 @@ Let $f(x)=x+3,\forall x\in\[0,1)$. Suppose $f(a)=f(b)$, then $f(a)=f(b)\Rightarr
 <br>
 <br>
 
-**Example 4**: Show that $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
+**Example 4**: Show that $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.<sup>[3]</sup>
 
 Clearly, $\mathbb{N}$ injects into $\mathbb{Z}$. Let $g:\mathbb{Z}\to\mathbb{N}$ be a pisewise function, s.t.,
 
@@ -169,5 +169,6 @@ Thus, in all cases we prove $a\ne b\Longrightarrow g(a)\ne g(b)$. Hence, $g$ is 
 <p align="center">Further Reading<p>
 
 [1]: [Class Notes from Millersville University](https://sites.millersville.edu/bikenaga/math-proof/cardinality/cardinality.pdf)<br>
-[2]: [Proof of Cantor-Schröder-Bernstein Theorem](http://www.cs.cornell.edu/courses/cs2800/2017fa/lectures/lec14-cantor.html)
+[2]: [Proof of Cantor-Schröder-Bernstein Theorem](http://www.cs.cornell.edu/courses/cs2800/2017fa/lectures/lec14-cantor.html)<br>
+[3]: [How to Prove the Injectivity of Piecewise Functions (See Example 25.11)](https://math.byu.edu/~doud/transition/Functions.pdf)
 
