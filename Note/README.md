@@ -152,11 +152,11 @@ $$
 
 Prove by contrapositive, let $a,b\in\mathbb{Z}$ and suppose $a\ne b$. Then, there are three cases to consider.<br>
 **Case 1**: $a\ge0$ and $b\ge0$\
-&emsp;&emsp;&emsp;&ensp; Then $g(a)=2a+1\ne2b+1=g(b)$ since $a\ne b$.\
+&emsp;&emsp;&emsp;&ensp; Then $a\ne b\Rightarrow 2a\ne 2b\Rightarrow 2a+1\ne 2b+1\Rightarrow g(a)\ne g(b)$.\
 **Case 2**: $a<0$ and $b<0$\
-&emsp;&emsp;&emsp;&ensp;&thinsp; Then $g(a)=-2a\ne-2b=g(b)$ since $a\ne b$.\
+&emsp;&emsp;&emsp;&ensp;&thinsp; Then $a\ne b\Rightarrow -2a\ne -2b\Rightarrow g(a)\ne g(b)$.\
 **Case 3**: WLOG, $a<0$ and $b\ge0$\
-&emsp;&emsp;&emsp;&ensp;&thinsp; Then $g(a)=-2a\ne2b+1=g(b)$ since LHS is even while RHS is odd.\
+&emsp;&emsp;&emsp;&ensp;&thinsp; Then $a\ne b\Rightarrow -2a\overset{?}{\ne}2b\Rightarrow -2a\ne2b+1\Rightarrow g(a)\ne g(b)$.\
 Thus, in all cases we prove $a\ne b\Longrightarrow g(a)\ne g(b)$. Hence, $g$ is injective. Therefore, by Cantor-Schröder-Bernstein Theorem, $\mathbb{N}$ and $\mathbb{Z}$ have the same cardinality.
 
 <br>
